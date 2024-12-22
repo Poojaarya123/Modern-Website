@@ -1,0 +1,171 @@
+body {
+  font-family: "Merriweather", serif;
+}
+
+.category-card {
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.launch-btn{
+  border: 2px solid red;
+  border-radius: 5px;
+
+}
+
+.login-btn{
+  border: 2px solid red;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+
+}
+.title {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Trending */
+.card {
+  border: none;
+  border-radius: 8px;
+}
+.container-red {
+  background-color: #c00;
+  padding: 20px 10px;
+}
+.icon {
+  font-size: 2rem;
+}
+
+.card > p {
+  font-size: small;
+}
+
+/* footer */
+.footer {
+  background-color: #000; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 40px 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+}
+.newsletter-input {
+  max-width: 300px;
+}
+.btn-launch {
+  background-color: white;
+  color: #333;
+}
+.btn-launch:hover {
+  background-color: #fff;
+  color: #000;
+}
+.social-icons a {
+  margin-right: 10px;
+}
+
+.footer > p {
+  font-size: small;
+}
+
+.product-list > li {
+  list-style-type: disc;
+}
+
+/* launches section styling */
+.card-image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  border: none;
+  outline: none;
+}
+.card-body {
+  position: relative;
+  top: -50px;
+  background: white;
+  width: 35vw;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+  font-size: smaller;
+  font-weight: 800;
+}
+.card-text {
+  font-size: x-small;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.icon-container i {
+  font-size: 10px;
+  cursor: pointer;
+}
+.btn {
+  padding: 6px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: x-small;
+  margin-right: 10px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.hand-pray {
+  border: 3px soild red;
+}
+
+.custom-icon {
+  color: #ff2f00 !important;
+  background: #ffff;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.circle-btn {
+  position: absolute;
+  top: -30px;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+/* media query of launches */
+@media (max-width: 1000px) {
+  .card-body {
+    position: relative;
+    top: -50px;
+    background: white;
+    width: initial;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+}
